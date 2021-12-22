@@ -9,11 +9,11 @@ import java.awt.*;
 import java.awt.print.PageFormat;
 import java.awt.print.Printable;
 
-public abstract class FarsiPaper implements Printable {
+public abstract class FarsiPrintable implements Printable {
 
     private static final HashPrintRequestAttributeSet HASH_PRINT_REQUEST_ATTRIBUTE_SET = new HashPrintRequestAttributeSet();
 
-    FarsiPaper(MediaSize mediaSize, OrientationRequested orientationRequested) {
+    FarsiPrintable(MediaSize mediaSize, OrientationRequested orientationRequested) {
         HASH_PRINT_REQUEST_ATTRIBUTE_SET.add(
                 new MediaPrintableArea(0, 0,
                 Math.round(mediaSize.getX(Size2DSyntax.MM)),

@@ -12,9 +12,9 @@ public class FarsiPrinter {
         PRINTER_JOB.setPrintService(printService);
     }
 
-    public void print(FarsiPaper farsiPaper) throws PrinterException {
-        PRINTER_JOB.setPrintable(farsiPaper);
-        PRINTER_JOB.print(farsiPaper.hashPrintRequestAttributeSet());
+    public void print(FarsiPrintable farsiPrintable) throws PrinterException {
+        PRINTER_JOB.setPrintable(farsiPrintable);
+        PRINTER_JOB.print(farsiPrintable.hashPrintRequestAttributeSet());
     }
 
 
