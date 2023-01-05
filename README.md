@@ -2,7 +2,7 @@
 Farsi printer API for ansar project
  
 ### usage
-<code>
+```java
 
 FarsiPrinter farsiPrinter = new FarsiPrinter(PrinterJob.lookupPrintServices()[4]);
 farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.PORTRAIT) {
@@ -19,4 +19,4 @@ farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.POR
             });
 
 
-</code>
+```
