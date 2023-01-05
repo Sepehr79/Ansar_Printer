@@ -5,7 +5,7 @@ Farsi printer API for ansar project
 <code>
 
 FarsiPrinter farsiPrinter = new FarsiPrinter(PrinterJob.lookupPrintServices()[4]);
-            farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.PORTRAIT) {
+farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.PORTRAIT) {
                 @Override
                 public int print(FarsiGraphics2D graphics, int pageIndex) {
                     if (pageIndex < 2){
