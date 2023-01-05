@@ -30,4 +30,4 @@ farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.POR
 
 ### output
 
-
+![output](./pictures/screen.png)
