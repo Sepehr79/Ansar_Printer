@@ -11,7 +11,7 @@ Using java
 
 ```java
 
-FarsiPrinter farsiPrinter = new FarsiPrinter(PrinterJob.lookupPrintServices()[4]);
+FarsiPrinter farsiPrinter = new FarsiPrinter(PrinterJob.lookupPrintServices()[0]);
 farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.PORTRAIT) {
     @Override
     public int print(FarsiGraphics2D graphics, int pageIndex) {
@@ -27,3 +27,7 @@ farsiPrinter.print(new FarsiPrintable(MediaSize.ISO.A4, OrientationRequested.POR
 
 
 ```
+
+### output
+
+
