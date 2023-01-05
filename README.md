@@ -4,7 +4,10 @@ Farsi printer API for ansar project
 ### usage
 
 First you have to install printer on your OS
+
 ``` sudo apt-get install cups-pdf ```
+
+Using java
 
 ```java
 
